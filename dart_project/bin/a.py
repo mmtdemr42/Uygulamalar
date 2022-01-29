@@ -1,0 +1,1 @@
+print("MEHMET DEMİR\n" *3)
