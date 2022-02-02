@@ -7,8 +7,7 @@ void main(List<String> args) {
 bool polindromeSayiMi(int sayi) {
   bool kontrol;
   for (var i = 0; i < sayi.toString().length; i++) {
-    kontrol =
-        sayi.toString()[i] == sayi.toString()[sayi.toString().length - 1 - i];
+    kontrol = sayi.toString()[i] == sayi.toString()[sayi.toString().length - 1 - i];
     if (!kontrol) {
       return false;
     }
