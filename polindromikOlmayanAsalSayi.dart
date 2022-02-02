@@ -1,6 +1,6 @@
 
 void main(List<String> args) {
-  //int girilenSayi = int.parse(stdin.readLineSync()!);
+
   yazdir();
 }
 
