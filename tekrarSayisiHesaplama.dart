@@ -28,11 +28,12 @@ int? tekrarSayisiHesaplama() {
     for (var j = 0; j < dizi.length; j++) {
       if (dizi[j] == i) {
         tekrar++;
-        if (tekrar > 1) {
-          print("$i değeri $tekrar defa tekrar etmiştir.");
-        }
       }
+      
     }
+    if (tekrar > 1) {
+        print("$i değeri $tekrar defa tekrar etmiştir.");
+        }
     tekrar = 0;
   }
 }
