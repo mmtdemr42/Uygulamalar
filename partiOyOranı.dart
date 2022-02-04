@@ -1,7 +1,5 @@
 import 'dart:math';
 
-import 'sayiHesaplama.dart';
-
 void main(List<String> args) {
   rastgeleDegerUret();
   oyOraniHesapla();
